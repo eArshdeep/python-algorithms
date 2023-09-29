@@ -10,7 +10,7 @@ def mergesort(A):
     l = 0
     r = 0
     while l < len(L) and r < len(R):
-        if L[l] < R[r]:
+        if L[l] <= R[r]:
             A[a] = L[l]
             l += 1
         else:
